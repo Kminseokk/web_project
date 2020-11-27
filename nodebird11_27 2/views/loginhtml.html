@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <form id="signup-form" action="/" method="post">
+        <input type="hidden" name="email" value={{email}}> <!--이거 두개 지우면 데이터가 없다는 오류가 생겨.-->
+        <input type="hidden" name="password" value={{password}}><!-- 비밀번호가 일치하지 않다는 오류가 생겨-->
+        <button id="join-btn" type="submit" class="btn">이메일에서 로그인</button>
+    </form>
+</body>
+
